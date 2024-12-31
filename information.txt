@@ -1,3 +1,20 @@
 This repository provide the python code which utilizes the basic photometic paramenter to get the SFH parameter - tau and tage, which is used to study the variation fo SFR over time for the galaxies in study.
 The code implies Markov Chain Monte Carlo (MCMC) to get the values of tau and tage. 
 Futhermore, this help to check the age of the galaxies, if we have few more parameter like metallicity and redshift of the galaxy
+
+Role and Importance of MCMC for Determining SFH
+
+MCMC (Markov Chain Monte Carlo) is essential for estimating the quenched star formation history (SFH) parameters of a galaxy by sampling the posterior probability distribution of parameters given observational data.
+
+Key Roles:
+	1.	Parameter Estimation: Determines SFH parameters like quenching timescales from galaxy colors and redshift.
+	2.	Uncertainty Quantification: Provides median values and 1σ confidence intervals for parameters.
+	3.	Non-linear Models: Handles non-linear dependencies between galaxy colors and SFH parameters.
+	4.	Bayesian Framework: Combines data likelihood with prior distributions for robust inference.
+
+Why MCMC?
+	•	It accounts for complex models and observational uncertainties, essential for analyzing galaxy-specific SFH.
+	•	The burn-in phase ensures the chains converge, improving the reliability of results.
+	•	Outputs posterior distributions, enabling parameter correlations and uncertainties to be visualized using tools like triangle_plot.
+
+By using MCMC, starpy helps reconstruct and interpret the evolutionary history of a galaxy’s star formation efficiently.
