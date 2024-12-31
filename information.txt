@@ -1,0 +1,3 @@
+This repository provide the python code which utilizes the basic photometic paramenter to get the SFH parameter - tau and tage, which is used to study the variation fo SFR over time for the galaxies in study.
+The code implies Markov Chain Monte Carlo (MCMC) to get the values of tau and tage. 
+Futhermore, this help to check the age of the galaxies, if we have few more parameter like metallicity and redshift of the galaxy
